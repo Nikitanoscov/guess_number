@@ -11,10 +11,10 @@ while not stop_porgram:
     if you_number > number:
         print('Ваше число больше. Попробуйте снова.')
     
-    if you_number < number:
+    elif you_number < number:
         print('Ваше число меньше. Попробуйте снова.')
     
-    if you_number == number:
+    elif you_number == number:
         stop_porgram = True
 
 
